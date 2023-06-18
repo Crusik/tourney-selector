@@ -1,0 +1,20 @@
+/* .player-score {
+    font-size: 1em;
+} */
+
+/* .score {
+    margin: 2px;   
+} */
+
+.player{
+    /* display: flex; */
+    padding: 3%;
+    min-height: 10%;
+    font-size: small;
+    /* margin: auto 0; */
+    width: 100%;
+}
+
+/* .player-name {
+    width: 80%;
+} */

@@ -1,0 +1,43 @@
+.matchup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: white; */
+}
+
+
+.team {
+    background-color: white;
+    display: flex;
+    margin: 1% 0;
+}
+
+.highlighted {
+    background-color: lightgreen;
+}
+/* li {
+    height: 45%;
+} */
+/* 
+@media (max-width: 1150px) {
+    .team {
+        margin: 2.5% 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .team {
+        margin: 3.6% 0;
+    }
+}
+@media (max-width: 800px) {
+    .team {
+        margin: 6% 0;
+    }
+} */
+/* This is where the Bracket will break to look mobile */
+/* @media (max-width: 700px) {
+    .team {
+        margin: 6% 0;
+    }
+} */
