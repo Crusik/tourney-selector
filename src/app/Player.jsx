@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Player.css'
 
+// Another commit
+
 function Player(props) {
 
   // const [isHighlighted, setIsHighlighted] = useState(false);
