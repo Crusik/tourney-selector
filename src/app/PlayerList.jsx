@@ -4,7 +4,6 @@ import './PlayerList.css';
 import page from './page'
 import { sharedContext } from './Context'
 
-// Test commit
 
 // Once the first round (16 players) have been selected, I want the playerList component to become disabled.
 // In the end I want this to be a collaspable tab that the user can shrink down once the players are selected.
