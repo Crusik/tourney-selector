@@ -1,3 +1,5 @@
+First time using NEXT JS. Perhaps it wasn't the best type of APP to use NEXT JS on. Just a tournament bracket that will randomize the players/teams and allow the user to select winners that will move on to the next round.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
