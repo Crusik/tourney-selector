@@ -1,204 +1,24 @@
 body {font-family: 'Istok Web', sans-serif;}
 .bracket {width: 100%;display: flex; flex: 1; padding: 0 2%;}
-.container {width: 25%; display: flex;flex-direction:column; padding: 1% 1.5%;height: 100%;}
+.container {width: 25%; display: flex; flex-direction:column; padding: 0 1.5%;height: 100%;}
 /* .container {align-items: center; height: 100%;} */
 /* .round {display:flex;flex-direction:column;} */
 .score {float: right;color: #2C7399;font-weight: bold;font-family: 'Roboto Condensed', sans-serif;}
 .round-details {font-family: 'Roboto Condensed', sans-serif; color: #2C7399;text-transform: uppercase;text-align: center;padding: 15% 0;}
-/* .round {
+.round {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  width: 30.8333%;
-  margin: 3% 1%;
+  justify-content: space-evenly;
+}
+
+/* .matchup {
+  display: flex;
+  flex: 1;
   justify-content: space-evenly;
 } */
 
-/* .round-one {
-  padding: 0;
+/* .team {
+  flex: 1;
+  justify-content: space-evenly;
 } */
-
-/* .round-two {
-  padding: 1% 0;
-} */
-/* .round-three {
-  padding: 6% 0;
-} */
-
-.round-one {
-  .matchup {
-    padding: 0.5% 0;
-  }
-}
-
-/* .round-two {
-  .matchup {
-    padding: 0;
-  }
-} */
-.round-two {
-  .matchup {
-    .team {
-      margin: 9% 0;
-    }
-  }
-}
-.round-three {
-  .matchup {
-    .team {
-      margin: 24.5% 0;
-    }
-  }
-}
-.championship {
-  .matchup {
-    .team {
-      margin: 55% 0;
-    }
-  }
-}
-
-/* I need to change the following */
-@media (max-width: 1150px) {
-  .round-one {
-    .matchup {
-      .team {
-        margin: 2.5% 0;
-      }
-    }
-  }
-  .round-two {
-    .matchup {
-      .team {
-        margin: 12.8% 0;
-      }
-    }
-  }
-
-  .round-three {
-    .matchup {
-      .team {
-        margin: 32.5% 0;
-      }
-    }
-  }
-
-  .championship {
-    .matchup {
-      .team {
-        margin: 71.3% 0;
-      }
-    }
-  }  
-}
-
-/* @media (max-width: 1150px) {
-  .round-three {
-    .matchup {
-      padding: 61% 0;
-    }
-  }
-}
-@media (max-width: 1150px) {
-  .champion {
-    .matchup {
-      padding: 140% 0;
-    }
-  }
-} */
-
-@media (max-width: 1000px) {
-  .round-one {
-    .matchup {
-      .team {
-        margin: 3.5% 0;
-      }
-    }
-  }
-  .round-two {
-    .matchup {
-      .team {
-        margin: 15.5% 0;
-      }
-    }
-  }
-
-  .round-three {
-    .matchup {
-      .team {
-        margin: 38% 0;
-      }
-    }
-  }
-
-  .championship {
-    .matchup {
-      .team {
-        margin: 83% 0;
-      }
-    }
-  }  
-}
-@media (max-width: 850px) {
-  .round-one {
-    .matchup {
-      .team {
-        margin: 4.5% 0;
-      }
-    }
-  }
-  .round-two {
-    .matchup {
-      .team {
-        margin: 18.3% 0;
-      }
-    }
-  }
-
-  .round-three {
-    .matchup {
-      .team {
-        margin: 45% 0;
-      }
-    }
-  }
-
-  .championship {
-    .matchup {
-      .team {
-        margin: 97.5% 0;
-      }
-    }
-  }  
-}
-@media (max-width: 700px) {
-  .round-one {
-    .matchup {
-      .team {
-        margin: 7% 0;
-      }
-    }
-  }
-  .round-two {
-    .matchup {
-      .team {
-        margin: 24.5% 0;
-      }
-    }
-  }
-
-  .round-three {
-    .matchup {
-      .team {
-        margin: 58.8% 0;
-      }
-    }
-  }
-
-  .championship {
-    .matchup {
-      .team {
-        margin: 126% 0;
-      }
-    }
-  }  
-}
