@@ -3,14 +3,21 @@
     flex-direction: column;
     justify-content: space-evenly;
     flex: 1;
+
+    .team {
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+    }
 }
 
 
-.team {
-    background-color: white;
-    display: flex;
-    margin: 0;
-}
+// .team {
+//     background-color: white;
+//     display: flex;
+//     margin: 0;
+// }
 
 .highlighted {
     background-color: lightgreen;

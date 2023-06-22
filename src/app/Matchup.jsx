@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import Player from './Player';
 import Score from './Score';
-import './Matchup.css'
+import './Matchup.scss'
 import Bracket from './Bracket';
 import { sharedContext } from './Context'
 
