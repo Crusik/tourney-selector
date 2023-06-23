@@ -1,15 +1,46 @@
 .matchup {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex: 1;
 
     .team {
         background-color: white;
         display: flex;
-        justify-content: space-evenly;
-        margin: 0;
+        justify-content: space-around;
+
+        .player {
+            // height: 20%;
+            // flex: 1;
+            // justify-content: space-around;
+            /* display: flex; */
+            padding: 3%;
+            // min-height: 10%;
+            font-size: small;
+        }
     }
+}
+
+@media (max-height: 500px) {
+    .matchup {
+        .team {
+            .player {
+                padding: 0;
+            }
+        }
+    }    
+}
+@media (max-height: 400px) {
+    .matchup {
+        .team {
+            .player {
+                // height: 10px;
+                // justify-content: unset;
+                // width: 20px;
+                // font-size: 8px;
+            }
+        }
+    }    
 }
 
 
